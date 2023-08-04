@@ -24,4 +24,20 @@ Submit a negative number
 Submit a number in exponent notation
 Submit a string
 
-##
+## E2E tests
+
+### Setup
+
+1. Install node.js
+2. Install npm
+3. clone the repo and run `npm install`
+
+### Run tests
+
+- `npm run test` will run the tests in headless mode
+- `npm run test:debug` will run the tests in debug mode
+
+### Reports
+
+Reports are automatically generated in the `./reports` folder after each test run.
+run `npm run test:report` to open the report in the browser.
