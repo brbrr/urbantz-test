@@ -6,9 +6,13 @@
 2. write out some test scenarios so you can organize test runs every time we want to deploy a new version of the app.
 3. try to automate (some of) these scenarios.
 
+## Bug reports
+
+All the issues are reported in the issues section of this repo: https://github.com/brbrr/urbantz-test/issues
+
 ## Test cases
 
-Due to the bug/uncertainty of expected behavior, I will assume all integers as valid inputs.
+Due to the bug/uncertainty of expected behavior, I will assume all integers as valid inputs, meaning that the theoretical range of valid inputs is [0..Infinity]. Obviously, there should be a finite range of valid inputs, but this is up for a discussion with product/dev team.
 
 ### Positive test cases
 
@@ -40,4 +44,4 @@ Submit a string
 ### Reports
 
 Reports are automatically generated in the `./reports` folder after each test run.
-run `npm run test:report` to open the report in the browser.
+Run `npm run test:report` to open the report in the browser.
