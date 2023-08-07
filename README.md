@@ -16,17 +16,17 @@ Due to the bug/uncertainty of expected behavior, I will assume all integers as v
 
 ### Positive test cases
 
-Submit integer value at lower boundary [0]
-Submit integer value at lower boundary+1 [1]
-Submit integer value within the range of [170-990]
-Submit integer value higher than 991 [2000]
+- Submit integer value at lower boundary [0]
+- Submit integer value at lower boundary+1 [1]
+- Submit integer value within the range of [170-990]
+- Submit integer value higher than 991 [2000]
 
 ### Negative test cases
 
-Submit a number with a decimal point
-Submit a negative number
-Submit a number in exponent notation
-Submit a string
+- Submit a number with a decimal point
+- Submit a negative number
+- Submit a number in exponent notation
+- Submit a string
 
 ## E2E tests
 
